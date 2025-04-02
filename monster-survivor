@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Epic Survival Game with Endless Monsters</title>
+    <meta name="description" content="Play Monster Survivors online - a thrilling survival game where you battle endless waves of monsters!">
+    <link rel="canonical" href="https://monstersurvivors.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-green': '#34C759',
+                        'apple-red': '#FF3B30',
+                        'apple-orange': '#FF9500',
+                        'apple-purple': '#AF52DE',
+                        'apple-dark': '#1C1C1E',
+                        'apple-gray': '#8E8E93',
+                        'apple-light': '#F2F2F7',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-apple-light text-apple-dark">
+    <header class="bg-apple-blue text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 md:py-8">
+            <h1 class="text-3xl md:text-5xl font-bold text-center">Monster Survivors</h1>
+            <p class="text-lg md:text-xl text-center mt-2 md:mt-4">Survive the endless onslaught of monstrous creatures!</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6 md:py-8">
+        <section class="mb-10">
+            <div class="w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
+                <div class="relative aspect-[16/9] w-full">
+                    <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                            class="absolute inset-0 w-full h-full border-0" 
+                            allowfullscreen 
+                            loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold text-apple-blue mb-4">Game Overview</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="mb-4">Monster Survivors is an intense survival game where your mission is simple: stay alive as long as possible while facing waves of increasingly challenging monsters. Use strategic movements and powerful weapons to overcome the hordes of enemies that never stop coming.</p>
+                <p>The longer you survive, the stronger you become, unlocking new abilities and weapons to enhance your combat efficiency. Test your skills, reflexes, and tactical thinking in this addictive survival adventure!</p>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold text-apple-blue mb-4">How to Play</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Use WASD or arrow keys to move your character</li>
+                    <li>Automatically attack nearby enemies</li>
+                    <li>Collect experience orbs to level up</li>
+                    <li>Choose new abilities or weapons when leveling up</li>
+                    <li>Survive as long as possible!</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold text-apple-blue mb-4">Game Features</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-apple-purple mb-2">Endless Gameplay</h3>
+                    <p>Face increasingly difficult waves of monsters in a never-ending challenge of survival and skill.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-apple-orange mb-2">Character Progression</h3>
+                    <p>Level up during gameplay to unlock and upgrade powerful weapons and special abilities.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-apple-green mb-2">Diverse Enemies</h3>
+                    <p>Battle against a wide variety of monsters, each with unique behaviors and attack patterns.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-apple-red mb-2">Addictive Gameplay</h3>
+                    <p>Simple controls combined with strategic depth create an engaging experience that keeps you coming back for more.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-4xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-apple-blue mb-4">Why Players Love Monster Survivors</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="mb-4">Monster Survivors combines simple gameplay mechanics with deep strategic elements, creating an addictive experience that's easy to learn but challenging to master. The constant progression and ever-increasing difficulty ensure that every playthrough offers a unique experience.</p>
+                <p>Whether you have just a few minutes to spare or want to dive into an extended gaming session, Monster Survivors provides the perfect balance of accessibility and depth to satisfy all types of players.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-12 bg-apple-dark text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2023 MonsterSurvivors.com - All rights reserved</p>
+            <p class="mt-2 text-sm text-apple-gray">Monster Survivors is an exciting online survival game where you battle endless waves of monsters!</p>
+        </div>
+    </footer>
+</body>
+</html> 
